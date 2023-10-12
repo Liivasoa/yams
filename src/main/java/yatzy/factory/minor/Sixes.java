@@ -1,6 +1,4 @@
-package yatzy.factory.concrete;
-
-import yatzy.Minor;
+package yatzy.factory.minor;
 
 public class Sixes extends Minor {
 

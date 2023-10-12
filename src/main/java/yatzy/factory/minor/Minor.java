@@ -1,4 +1,6 @@
-package yatzy;
+package yatzy.factory.minor;
+
+import yatzy.Party;
 
 public abstract class Minor extends Party {
 

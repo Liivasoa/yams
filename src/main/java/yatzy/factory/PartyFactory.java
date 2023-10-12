@@ -4,12 +4,12 @@ import java.util.List;
 
 import yatzy.CategoryEnum;
 import yatzy.Party;
-import yatzy.factory.concrete.Fives;
-import yatzy.factory.concrete.Fours;
-import yatzy.factory.concrete.Ones;
-import yatzy.factory.concrete.Sixes;
-import yatzy.factory.concrete.Threes;
-import yatzy.factory.concrete.Twos;
+import yatzy.factory.minor.Fives;
+import yatzy.factory.minor.Fours;
+import yatzy.factory.minor.Ones;
+import yatzy.factory.minor.Sixes;
+import yatzy.factory.minor.Threes;
+import yatzy.factory.minor.Twos;
 
 public class PartyFactory {
 
