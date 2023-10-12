@@ -9,7 +9,7 @@ import java.util.Map;
 
 public abstract class Party {
 
-	private final List<Integer> dices;
+	protected final List<Integer> dices;
 
 	protected Party(List<Integer> dices) {
         this.dices = dices;
