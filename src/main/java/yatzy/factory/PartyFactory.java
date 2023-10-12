@@ -4,7 +4,7 @@ import java.util.List;
 
 import yatzy.CategoryEnum;
 import yatzy.Party;
-import yatzy.factory.minor.Minor;
+import yatzy.minor.Minor;
 
 public class PartyFactory {
 

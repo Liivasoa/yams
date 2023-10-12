@@ -1,4 +1,4 @@
-package yatzy.factory.minor;
+package yatzy.minor;
 
 import java.util.List;
 

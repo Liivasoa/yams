@@ -1,4 +1,4 @@
-package yatzy.factory.major;
+package yatzy.major;
 
 public interface Major {
 
