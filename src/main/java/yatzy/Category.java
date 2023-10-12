@@ -5,12 +5,6 @@ import java.util.function.Function;
 public enum Category {
     Chance(Score::chance),
     Yatzy(Score::yatzy),
-    Ones(Score::ones),
-    Twos(Score::twos),
-    Threes(Score::threes),
-    Fours(Score::fours),
-    Fives(Score::fives),
-    Sixes(Score::sixes),
     Pair(Score::pair),
     TwoPairs(Score::twoPairs),
     ThreeOfAKind(Score::threeOfAKind),

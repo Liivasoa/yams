@@ -20,35 +20,6 @@ public class Score {
         }
         return 0;
     }
-    
-    
-    public static int partyMinor(DiceRoller diceRoller, int stepNumber) {
-        return diceRoller.getDiceNumberCount(stepNumber);
-    }
-
-    public static int ones(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(1);
-    }
-
-    public static int twos(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(2);
-    }
-
-    public static int threes(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(3);
-    }
-
-    public static int fours(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(4);
-    }
-
-    public static int fives(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(5);
-    }
-
-    public static int sixes(DiceRoller diceRoller) {
-        return diceRoller.getDiceNumberCount(6);
-    }
 
     public static int pair(DiceRoller diceRoller) {
         return diceRoller.getCountsMap().entrySet().stream()

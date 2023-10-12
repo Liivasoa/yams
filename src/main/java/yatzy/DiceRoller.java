@@ -34,12 +34,6 @@ public class DiceRoller {
             .anyMatch(e -> e.getValue() == 5);
     }
 
-    public int getDiceNumberCount(int diceNumber) {
-        return getCountsMap()
-            .getOrDefault(diceNumber, 0L)
-            .intValue() * diceNumber;
-    }
-
     public List<Integer> findTwoPairs() {
         return getCountsMap().entrySet().stream()
             .filter(entry -> entry.getValue() >= 2)
