@@ -1,13 +1,16 @@
 package yatzy.factory.minor;
 
+import java.util.List;
+
 import yatzy.Party;
 
-public abstract class Minor extends Party {
+public class Minor extends Party {
 
 	protected int diceNumber;
 
-	public Minor(int d1, int d2, int d3, int d4, int d5) {
-		super(d1, d2, d3, d4, d5);
+	public Minor(List<Integer> dices, int diceNumber) {
+		super(dices);
+		this.diceNumber = diceNumber;
 	}
 
 	private int getDiceNumberCount() {
